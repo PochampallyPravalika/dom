@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,th,td{
+            border: 2px solid black;
+            border-collapse:collapse;
+        }
+        td{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let table = document.createElement("table");
+        let row1 = document.createElement("tr");
+        let row2 = document.createElement("tr");
+        let row3 = document.createElement("tr");
+        let row4 = document.createElement("tr")
+        let hedding1=document.createElement("th");
+        let hedding2=document.createElement("th");
+        let row2td1=document.createElement("td");
+        let row2td2=document.createElement("td");
+        let row3td1=document.createElement("td");
+        let row3td2=document.createElement("td");
+        let row4td1=document.createElement("td");
+        let row4td2=document.createElement("td");
+        hedding1.innerText="NAME";
+        hedding2.innerText="AGE";
+        row2td1.innerText="Raju";
+        row2td2.innerText="22";
+        row3td1.innerText="Pravalika";
+        row3td2.innerText="24";
+        row4td1.innerText="Rani";
+        row4td2.innerText="25";
+        row1.appendChild(hedding1);
+        row1.appendChild(hedding2);
+        row2.appendChild(row2td1);
+        row2.appendChild(row2td2);
+        row3.appendChild(row3td1);
+        row3.appendChild(row3td2);
+        row4.appendChild(row4td1);
+        row4.appendChild(row4td2);
+        table.appendChild(row1);
+        table.appendChild(row2);
+        table.appendChild(row3);
+        table.appendChild(row4);
+        document.body.appendChild(table); 
+    </script>
+</body>
+</html>

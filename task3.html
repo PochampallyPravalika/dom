@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //task-----7 
+    let section=document.createElement("section");
+    let h2=document.createElement("h2");
+    let p=document.createElement("p");
+    p.innerText="lorem ipsum sit sat butterfly butterfly";
+    h2.innerText="This is Hedding Tag";
+    section.appendChild(p);
+    section.appendChild(h2);
+    document.body.appendChild(section);
+
+    // task----8
+    let dl=document.createElement("dl");
+    let dt1=document.createElement("dt");
+    let dt2=document.createElement("dt");
+    let dt3=document.createElement("dt");
+    let dd1=document.createElement("dd");
+    let dd2=document.createElement("dd");
+    let dd3=document.createElement("dd");
+    dt1.innerText="term1";
+    dt2.innerText="term2";
+    dt3.innerText="term3";
+    dd1.innerText="this is desctiption1";
+    dd2.innerText="this is desctiption2";
+    dd3.innerText="this is desctiption3";
+    dl.appendChild(dt1);
+    dl.appendChild(dd1);
+    dl.appendChild(dt2);
+    dl.appendChild(dd2);
+    dl.appendChild(dt3);
+    dl.appendChild(dd3);
+    document.body.appendChild(dl);
+    // task---9
+    let div=document.createElement("div");
+    let blockquote=document.createElement("blockquote");
+    blockquote.innerText="this is blockquote";
+    div.appendChild(blockquote);
+    document.body.appendChild(div);
+
+    // task---10
+    let div1=document.createElement("div");
+    let p1=document.createElement("p");
+    let p2=document.createElement("p");
+    let p3=document.createElement("p");
+    p1.innerText="this is first paragraph";
+    p2.innerText="this is second paragraph";
+    p3.innerText="this is third paragraph";
+    div1.appendChild(p1);
+    div1.appendChild(p2);
+    div1.appendChild(p3);
+    document.body.appendChild(div1);
+    </script>
+</body>
+</html>
